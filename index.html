@@ -1,103 +1,127 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Works</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://th.bing.com/th/id/OIP.xhy_X9W9XuEwoimL5mytSQHaEK?w=265&h=180&c=7&r=0&o=5&pid=1.7');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+            color: white;
+        }
 
-<html>
-    <head>
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
 
-        <style>
+        .header {
+            text-align: center;
+            font-size: 40px;
+            padding: 40px 20px 20px;
+        }
 
-            body { 
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
 
-                background-image: url(https://th.bing.com/th/id/OIP.xhy_X9W9XuEwoimL5mytSQHaEK?w=265&h=180&c=7&r=0&o=5&pid=1.7);
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
+        .column {
+            flex: 1;
+            min-width: 250px;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
-            .center {
-                
-                text-align: center;
-                padding-top: 20px;
-                font-size: 75px;
-                font-family:'Times New Roman', Times, serif;
-                color: white;
-            
-            }
+        a.button {
+            display: block;
+            background-color: #a71c0f;
+            color: lavender;
+            text-decoration: none;
+            text-align: center;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
 
-            a.button {
-                
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #a71c0f;
-                color: lavender;
-                text-align: center;
-                text-decoration: none;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                margin-right: 150px;
-                margin-left: 150px;
-                margin-top: 50px;
+        a.button:hover {
+            background-color: #d22c1c;
+        }
 
-            }
+        .footer-links {
+            text-align: center;
+            margin-top: 50px;
+        }
 
-            a.link {
-                
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: rgba(221, 8, 175, 0.685);
-                color: lavender;
-                text-align: center;
-                text-decoration: none;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                margin-right: 150px;
-                margin-left: 150px;
-                margin-top: 50px;
+        .footer-links a {
+            display: inline-block;
+            background-color: rgba(221, 8, 175, 0.685);
+            color: lavender;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
 
-            }
+        .footer-links a:hover {
+            background-color: rgba(255, 20, 200, 0.8);
+        }
+    </style>
+</head>
+<body>
 
-        </style>
+    <div class="header">
+        ---| Click to see some work |---
+    </div>
 
-    </head>
-    <body>
-
-        <div class= "center">
-
-            <p>---| Click to see some work|---</p>
-
+    <div class="columns">
+        <div class="column">
+            <a href="https://act4fmly.pages.dev/" class="button">Work 1 | Operation: Family</a>
+            <a href="https://actfmlywrk.pages.dev/" class="button">Work 2 | Operation: Crazy Design</a>
+            <a href="https://phtoa6col.pages.dev/" class="button">Work 3 | Operation: Photo Gallery</a>
+            <a href="https://s1lm3.pages.dev/" class="button">Work 4 | Operation: Photo Ops</a>
+            <a href="https://myv1e0.pages.dev/" class="button">Work 5 | Operation: Youtube Ads</a>
+            <a href="https://fndlstreg.pages.dev/" class="button">Work 6 | Operation: Friends or Acquaintance</a>
+            <a href="https://rlatedstelnk.pages.dev/" class="button">Work 7 | Operation: Friend's Works</a>
+            <a href="https://sloqteslf.pages.dev/" class="button">Work 8 | Operation: Quotes Quota</a>
+            <a href="https://github.com/Wal-Were/I.L.Y.Vaccine" class="button">Work 9 | Operation: I Love You Vaccine</a>
+            <a href="https://github.com/Wal-Were/Romance-Man" class="button">Work 10 | Operation: Romancer</a>
         </div>
 
-        <a href="https://act4fmly.pages.dev/" class="button"> Work 1 | Operation: Family</a>
+        <div class="column">
+            <a href="https://rb.gy/7ud8w9" class="button">Work 11 | Operation: Attendance</a>
+            <a href="#" class="button">Work 12 | Coming Soon</a>
+            <a href="#" class="button">Work 13 | Coming Soon</a>
+            <a href="#" class="button">Work 14 | Coming Soon</a>
+            <a href="#" class="button">Work 15 | Coming Soon</a>
+        </div>
+    </div>
 
-        <a href="https://actfmlywrk.pages.dev/" class="button"> Work 2 | Operation: Crazy Design</a>
+    <div class="footer-links">
+        <a href="https://projectsite.pages.dev/">Want to see my portfolio?</a>
+        <a href="https://spleste.pages.dev/">Back to the simple website?</a>
+    </div>
 
-        <a href="https://phtoa6col.pages.dev/" class="button"> Work 3 | Operation: Photo Gallery</a>
-
-        <a href="https://s1lm3.pages.dev/" class="button"> Work 4 | Operation: Photo Ops</a>
-        
-        <a href="https://myv1e0.pages.dev/" class="button"> Work 5 | Operation: Youtube Ads</a>
-
-        <a href="https://fndlstreg.pages.dev/" class="button"> Work 6 | Operation: Friends or Acquintance</a>
-
-        <a href="https://rlatedstelnk.pages.dev/" class="button"> Work 7 | Operation: Friend's Works</a>
-        
-        <a href="https://sloqteslf.pages.dev/" class="button"> Work 8 | Operation: Quotes Quota</a>
-        
-        <a href="https://github.com/Wal-Were/I.L.Y.Vaccine" class="button"> Work 9 | Operation: I love you vaccine</a>
-
-        <a href="https://github.com/Wal-Were/Romance-Man" class="button"> Work 10 | Operation: Romancer</a>
-
-        <a href="https://rb.gy/7ud8w9" class="button"> Work 11 | Operation: Attendance</a>
-
-        <BR/>
-
-        <a href="https://projectsite.pages.dev/" class="link"> Want to see my portfolio?</a>
-        
-        <a href="https://spleste.pages.dev/" class="link"> Want to go back to the simple website?</a>
-
-        </body>
-        </html>
+</body>
+</html>
