@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio Works</title>
     <style>
         body {
@@ -87,6 +87,31 @@
         .footer-links a:hover {
             background-color: rgba(255, 20, 200, 0.8);
         }
+
+        /* New styles for second column entries */
+        .entry {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .entry-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .entry-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .entry-buttons a.button {
+            flex: 1;
+            max-width: 150px;
+            padding: 10px 15px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -110,11 +135,45 @@
         </div>
 
         <div class="column">
-            <a href="https://rb.gy/7ud8w9" class="button">Work 11 | Operation: Attendance</a>
-            <a href="https://trafficlightpage.pages.dev/" class="button">Work 12 | Operation: Traffic Light</a>
-            <a href="https://facedetectionpage.pages.dev/" class="button">Work 13 | Operation: Debt-burdened Face</a>
-            <a href="https://sumobotpage.pages.dev/" class="button">Work 14 |  Operation: Sumo Bot</a>
-            <a href="https://hbpage-aii.pages.dev/" class="button">Work 15 | Operation: Hockey Bot </a>
+            <div class="entry">
+                <div class="entry-title">Networking</div>
+                <div class="entry-buttons">
+                    <a href="https://rb.gy/7ud8w9" class="button">Final Project</a>
+                    <a href="https://youtube.com/playlist?list=PLJvSCgIv3nL7RTHWdTnpnN8ZONsTxML9h&si=TJ515QRfWFBWY4tj" class="button">Activities</a>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">HDL</div>
+                <div class="entry-buttons">
+                    <a href="https://trafficlightpage.pages.dev/" class="button">Final Project</a>
+                    <a href="https://youtube.com/playlist?list=PLJvSCgIv3nL6on5rVAo7T5aMWgnKNYqGs&si=hqG-JKTr1xceA265" class="button">Activities</a>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Machine Vision</div>
+                <div class="entry-buttons">
+                    <a href="https://facedetectionpage.pages.dev/" class="button">Final Projecy</a>
+                    <a href="https://youtube.com/playlist?list=PLJvSCgIv3nL6oUO5zPv0STGZhgogFOqBN&si=Tb3bFRlIJwMoPq25" class="button">Activities</a>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Microprocessor : Sumo Bot</div>
+                <div class="entry-buttons">
+                    <a href="https://sumobotpage.pages.dev/" class="button">Project</a>
+
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-title">Microprocessor : Hockey Bot</div>
+                <div class="entry-buttons">
+                    <a href="https://hbpage-aii.pages.dev/" class="button">Project</a>
+
+                </div>
+            </div>
         </div>
     </div>
 
